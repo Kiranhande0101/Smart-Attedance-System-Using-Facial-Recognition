@@ -83,7 +83,7 @@ def markAttendance(name):
                 # send the email
                 server = smtplib.SMTP('smtp.gmail.com', 587)
                 server.starttls()
-                server.login("kiranhande8408@gmail.com", 'wiwrunaamfxtkyib')
+                server.login("kiranhande8408@gmail.com", '8888888888888')
                 server.send_message(msg)
                 print(f"Email sent to {toaddr}")
 
